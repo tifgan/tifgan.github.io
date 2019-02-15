@@ -42,7 +42,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-twothird">
       <h5 class="w3-padding-32">
-        We introduce TiFGAN, the first GAN to generate audio successfully using a Time-Frequency (TF) representation and improving on the current state-of-the-art for audio synthesis with GANs. TiFGAN is an adaptation of DCGAN, originally proposed for image generation. The TiFGAN architecture additionally relies on the guidelines and principles for generating short-time Fourier data that we presented in the <a href="https://www.researchgate.net/publication/331044223_Adversarial_Generation_of_Time-Frequency_Features_with_application_in_audio_synthesis" target="_blank">accompanying paper</a>. 
+        <p>
+          Time-frequency (TF) representations provide powerful and intuitive features for the analysis of time series such as audio. But still, generative modeling of audio in the TF domain is a subtle matter. Consequently, neural audio synthesis widely relies on directly modeling the waveform and previous attempts at unconditionally synthesizing audio from neurally generated TF features still struggle to produce audio at satisfying quality. In <a href="https://www.researchgate.net/publication/331044223_Adversarial_Generation_of_Time-Frequency_Features_with_application_in_audio_synthesis" target="_blank">this contribution</a>, focusing on the short-time Fourier transform, we discuss the challenges that arise in audio synthesis based on generated TF features and how to overcome them.
+        </p>
+        <p>We demonstrate the potential of deliberate generative TF modeling with TiFGAN, the first unconditional GAN to generate audio successfully using an invertible TF representation and improving on the current state-of-the-art for audio synthesis with GANs. TiFGAN is an adaptation of DCGAN, originally proposed for image generation. The TiFGAN architecture additionally relies on the guidelines and principles for generating short-time Fourier data that we presented in the <a href="https://www.researchgate.net/publication/331044223_Adversarial_Generation_of_Time-Frequency_Features_with_application_in_audio_synthesis" target="_blank">accompanying paper</a>. 
+        </p>
       </h5>
 
 
